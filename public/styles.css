@@ -1,0 +1,88 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.body-utama{
+    width: 100%;
+    min-height: 75vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+.button-chat{
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    filter: drop-shadow(8px 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+.chat-card {
+    max-width: 25rem;
+    min-height: 30rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.card-header {
+    justify-content: space-between;
+}
+
+.button-kirim{
+    min-width: 3rem;
+    min-height: 3rem;
+    transition: background-color 1s ease;
+}
+
+.button-chat :hover{
+    background-color: yellow;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.username{
+    flex-direction: column;
+}
+
+.chat-box {
+    max-height: 20rem; 
+    overflow-y: auto;
+    scroll-behavior: smooth; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.chat-other {
+    align-self: flex-start;
+    border-radius: 15px 15px 15px 0;
+    background-color: yellow;
+    margin-bottom: 5px; 
+    padding: 5px;
+    width: 70%;
+}
+
+.chat-pengguna {
+    align-self: flex-end;
+    border-radius: 15px 15px 0 15px;
+    background-color: rgb(201, 201, 201);
+    margin-bottom: 5px; 
+    padding: 5px;
+    width: 70%;
+}
+
+.pesan-baris {
+    margin: 0; 
+    padding: 0; 
+}
+
+.hour {
+    font-size: 10px;
+    text-align: right;
+}
